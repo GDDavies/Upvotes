@@ -7,15 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		05D1BC4923B33196C60F22CF /* Pods_QuestionTime.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78D75FA320D1C762A50C60D3 /* Pods_QuestionTime.framework */; };
 		931ED7CE1FEC6B1500C15C72 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 931ED7CD1FEC6B1500C15C72 /* AppDelegate.swift */; };
 		931ED7D01FEC6B1500C15C72 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 931ED7CF1FEC6B1500C15C72 /* ViewController.swift */; };
 		931ED7D31FEC6B1500C15C72 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 931ED7D11FEC6B1500C15C72 /* Main.storyboard */; };
 		931ED7D51FEC6B1500C15C72 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 931ED7D41FEC6B1500C15C72 /* Assets.xcassets */; };
 		931ED7D81FEC6B1500C15C72 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 931ED7D61FEC6B1500C15C72 /* LaunchScreen.storyboard */; };
 		931ED8141FEC6D2C00C15C72 /* QuestionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 931ED8131FEC6D2C00C15C72 /* QuestionTableViewCell.swift */; };
+		939A8FA71FEC824D0055C854 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 939A8FA61FEC824D0055C854 /* GoogleService-Info.plist */; };
+		939A8FA91FEC87560055C854 /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 939A8FA81FEC87560055C854 /* Question.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		78D75FA320D1C762A50C60D3 /* Pods_QuestionTime.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QuestionTime.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		85EBC84923F7257635FB7C50 /* Pods-QuestionTime.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuestionTime.release.xcconfig"; path = "Pods/Target Support Files/Pods-QuestionTime/Pods-QuestionTime.release.xcconfig"; sourceTree = "<group>"; };
 		931ED7CA1FEC6B1500C15C72 /* QuestionTime.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuestionTime.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		931ED7CD1FEC6B1500C15C72 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		931ED7CF1FEC6B1500C15C72 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +29,9 @@
 		931ED7D71FEC6B1500C15C72 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		931ED7D91FEC6B1500C15C72 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		931ED8131FEC6D2C00C15C72 /* QuestionTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionTableViewCell.swift; sourceTree = "<group>"; };
+		939A8FA61FEC824D0055C854 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		939A8FA81FEC87560055C854 /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
+		A24948D1B5A3D9C5FC9A6EA4 /* Pods-QuestionTime.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuestionTime.debug.xcconfig"; path = "Pods/Target Support Files/Pods-QuestionTime/Pods-QuestionTime.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +39,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				05D1BC4923B33196C60F22CF /* Pods_QuestionTime.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +51,8 @@
 			children = (
 				931ED7CC1FEC6B1500C15C72 /* QuestionTime */,
 				931ED7CB1FEC6B1500C15C72 /* Products */,
+				AC7F2E40593955068EC30293 /* Pods */,
+				D587EA54FFD5B8059F7137BE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,13 +69,32 @@
 			children = (
 				931ED7CD1FEC6B1500C15C72 /* AppDelegate.swift */,
 				931ED7CF1FEC6B1500C15C72 /* ViewController.swift */,
+				939A8FA81FEC87560055C854 /* Question.swift */,
 				931ED7D11FEC6B1500C15C72 /* Main.storyboard */,
 				931ED8131FEC6D2C00C15C72 /* QuestionTableViewCell.swift */,
 				931ED7D41FEC6B1500C15C72 /* Assets.xcassets */,
 				931ED7D61FEC6B1500C15C72 /* LaunchScreen.storyboard */,
 				931ED7D91FEC6B1500C15C72 /* Info.plist */,
+				939A8FA61FEC824D0055C854 /* GoogleService-Info.plist */,
 			);
 			path = QuestionTime;
+			sourceTree = "<group>";
+		};
+		AC7F2E40593955068EC30293 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A24948D1B5A3D9C5FC9A6EA4 /* Pods-QuestionTime.debug.xcconfig */,
+				85EBC84923F7257635FB7C50 /* Pods-QuestionTime.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D587EA54FFD5B8059F7137BE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				78D75FA320D1C762A50C60D3 /* Pods_QuestionTime.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +104,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 931ED7DC1FEC6B1500C15C72 /* Build configuration list for PBXNativeTarget "QuestionTime" */;
 			buildPhases = (
+				8EE42A1E363976A7B7A9148B /* [CP] Check Pods Manifest.lock */,
 				931ED7C61FEC6B1500C15C72 /* Sources */,
 				931ED7C71FEC6B1500C15C72 /* Frameworks */,
 				931ED7C81FEC6B1500C15C72 /* Resources */,
+				418418B424E328ED4FFDAB1D /* [CP] Embed Pods Frameworks */,
+				89687EDBB5F14C6F9FF5F908 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -127,6 +160,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				931ED7D81FEC6B1500C15C72 /* LaunchScreen.storyboard in Resources */,
+				939A8FA71FEC824D0055C854 /* GoogleService-Info.plist in Resources */,
 				931ED7D51FEC6B1500C15C72 /* Assets.xcassets in Resources */,
 				931ED7D31FEC6B1500C15C72 /* Main.storyboard in Resources */,
 			);
@@ -134,12 +168,77 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		418418B424E328ED4FFDAB1D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-QuestionTime/Pods-QuestionTime-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireImage/AlamofireImage.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-QuestionTime/Pods-QuestionTime-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		89687EDBB5F14C6F9FF5F908 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-QuestionTime/Pods-QuestionTime-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8EE42A1E363976A7B7A9148B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-QuestionTime-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		931ED7C61FEC6B1500C15C72 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				931ED8141FEC6D2C00C15C72 /* QuestionTableViewCell.swift in Sources */,
+				939A8FA91FEC87560055C854 /* Question.swift in Sources */,
 				931ED7D01FEC6B1500C15C72 /* ViewController.swift in Sources */,
 				931ED7CE1FEC6B1500C15C72 /* AppDelegate.swift in Sources */,
 			);
@@ -276,6 +375,7 @@
 		};
 		931ED7DD1FEC6B1500C15C72 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A24948D1B5A3D9C5FC9A6EA4 /* Pods-QuestionTime.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -291,6 +391,7 @@
 		};
 		931ED7DE1FEC6B1500C15C72 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 85EBC84923F7257635FB7C50 /* Pods-QuestionTime.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

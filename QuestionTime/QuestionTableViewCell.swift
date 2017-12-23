@@ -15,10 +15,4 @@ class QuestionTableViewCell: UITableViewCell {
         super.awakeFromNib()
         // Initialization code
     }
-    
-    @IBAction func upvoteBtnTapped(_ sender: UIButton) {
-    }
-    
-    @IBAction func downvoteBtnTapped(_ sender: UIButton) {
-    }
 }

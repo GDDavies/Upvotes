@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AD_UNIT_ID_FOR_BANNER_TEST</key>
+	<string>ca-app-pub-3940256099942544/2934735716</string>
+	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
+	<string>ca-app-pub-3940256099942544/4411468910</string>
+	<key>CLIENT_ID</key>
+	<string>828834033040-c4q0asa9t0179t9ooc70m58ck4bt6poa.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.828834033040-c4q0asa9t0179t9ooc70m58ck4bt6poa</string>
+	<key>API_KEY</key>
+	<string>AIzaSyAiTyprtzy4cdk6I6HsAc-wsTZrLlTCp1Q</string>
+	<key>GCM_SENDER_ID</key>
+	<string>828834033040</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.questiontime.gdaviesdev</string>
+	<key>PROJECT_ID</key>
+	<string>questiontime-84999</string>
+	<key>STORAGE_BUCKET</key>
+	<string>questiontime-84999.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<true></true>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<false></false>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:828834033040:ios:1066b62610cfd22c</string>
+	<key>DATABASE_URL</key>
+	<string>https://questiontime-84999.firebaseio.com</string>
+</dict>
+</plist>
